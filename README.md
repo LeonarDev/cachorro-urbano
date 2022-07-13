@@ -5,10 +5,10 @@ The proposal is to simulate an extinct large Brazilian e-commerce of collective 
 
 This project is for educational purposes only and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.17.
 
-<!-- ## Development server
+## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
+<!-- 
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
