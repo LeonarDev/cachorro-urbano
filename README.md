@@ -1,13 +1,21 @@
 # CachorroUrbano
 
+Este projeto simula a extinta página de um dos maiores e-commerces brasileiros de compras coletivas chamado Peixe-Urbano.
 
-The proposal is to simulate an extinct large Brazilian e-commerce of collective purchases over the internet called Peixe-Urbano.
+Este repositório tem propósito apenas educacional e foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.17.
 
-This project is for educational purposes only and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.17.
+## Executando a aplicação
 
-## Development server
+Após baixar o reposiório e instalar as dependências, execute `ng serve` no terminal e abra o navegador em `http://localhost:4200/`. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Esboços
+
+<img src='./assets/esbocos/1.png'>
+<img src='./assets/esbocos/2_services.png'>
+<img src='./assets/esbocos/3_ofertaModel.png'>
+
+
 <!-- 
 ## Code scaffolding
 
