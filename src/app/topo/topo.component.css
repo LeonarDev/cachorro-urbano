@@ -1,5 +1,18 @@
+a {
+  color: #C1E4FF;
+}
+
+.logo {
+  width: 60%;
+}
+
+.navbar {
+  background-color: #FFF;
+}
+
 .active {
-  color: #FFF
+  color: #FFF;
+  font-weight: bolder;
 }
 
 .banner {
@@ -12,13 +25,9 @@
 }
 
 .menu {
-  background: #006ACB
-}
-
-.nav-link {
-  color: #C1E4FF
+  background: #006ACB;
 }
 
 .nav-link:hover {
-  color: #FFF
+  color: #FFF;
 }

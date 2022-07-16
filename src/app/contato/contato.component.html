@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="secao">
+    <h3 class="text-center">Contato</h3>
+  </div>
+  <hr />
+  <div class="container-form">
+    <form action="action_page.php">
+      <label for="nome">Nome</label>
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        placeholder="Digite seu primeiro nome aqui..."
+      />
+
+      <label for="sobrenome">Last Name</label>
+      <input
+        type="text"
+        id="sobrenome"
+        name="lastname"
+        placeholder="Digite seu sobrenome aqui..."
+      />
+
+      <label for="estado">Estado</label>
+      <select id="estado" name="estado">
+        <option value="sp">São Paulo</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="es">Espírito Santo</option>
+      </select>
+
+      <label for="assunto">Assunto</label>
+      <textarea
+        id="assunto"
+        name="assunto"
+        placeholder="Digite seu recado aqui..."
+        style="height: 200px"
+      ></textarea>
+
+      <input class="btn btn-primary" type="submit" value="Enviar" />
+    </form>
+  </div>
+</div>

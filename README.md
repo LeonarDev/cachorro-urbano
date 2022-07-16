@@ -14,6 +14,7 @@ Após baixar o reposiório e instalar as dependências, execute `ng serve` no te
 <img src='./src/assets/esbocos/1.png'>
 <img src='./src/assets/esbocos/2_services.png'>
 <img src='./src/assets/esbocos/3_ofertaModel.png'>
+<img src='./src/assets/esbocos/4_roteamento.png'>
 
 
 <!-- 
