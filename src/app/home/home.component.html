@@ -17,8 +17,12 @@
           <p class="card-text">
             {{ oferta.descricao_oferta }}
           </p>
-          <p class="preco">{{ oferta.valor }}</p>
-          <a href="#" class="btn btn-outline-primary">Ver oferta</a>
+          <p class="preco">R$ {{ oferta.valor.toFixed(2) }}</p>
+          <a
+            [routerLink]="['/oferta', oferta.id]"
+            class="btn btn-outline-primary"
+            >Ver oferta</a
+          >
         </div>
       </div>
     </div>

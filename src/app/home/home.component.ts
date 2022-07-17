@@ -10,6 +10,7 @@ import { Oferta } from '../shared/oferta.model';
 })
 export class HomeComponent implements OnInit {
   public ofertas: Array<Oferta> | undefined
+
   constructor(private ofertasService: OfertasService) { }
 
   ngOnInit(): void {
