@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -27,6 +28,7 @@ import { ROUTES } from './app.routes';
   imports: [
     BrowserModule,
     HttpClientModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [],
