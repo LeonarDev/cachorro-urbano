@@ -13,6 +13,9 @@ import { DiversaoComponent } from './diversao/diversao.component';
 import { ContatoComponent } from './contato/contato.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { ROUTES } from './app.routes';
+import { OfertaComponent } from './oferta/oferta.component';
+import { ComoUsarComponent } from './oferta/como-usar/como-usar.component';
+import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import { ROUTES } from './app.routes';
     DiversaoComponent,
     ContatoComponent,
     SobreComponent,
+    OfertaComponent,
+    ComoUsarComponent,
+    OndeFicaComponent,
   ],
   imports: [
     BrowserModule,

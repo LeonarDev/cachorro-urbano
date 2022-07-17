@@ -9,6 +9,7 @@ import { OfertasService } from '../ofertas.service';
   providers: [OfertasService]
 })
 export class RestaurantesComponent implements OnInit {
+
   public ofertas: Oferta[] | undefined;
 
   constructor(private ofertasService: OfertasService) { }
