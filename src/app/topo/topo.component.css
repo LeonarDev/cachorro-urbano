@@ -2,12 +2,9 @@ a {
   color: #C1E4FF;
 }
 
-.logo {
-  width: 60%;
-}
-
-.navbar {
-  background-color: #FFF;
+div.col-md-6,
+div.col-md-2 {
+  margin: auto;
 }
 
 .active {
@@ -16,7 +13,7 @@ a {
 }
 
 .banner {
-  margin-top: 280px;
+  margin-top: 15%;
 }
 
 .banner img {
@@ -24,10 +21,19 @@ a {
   height: 230px
 }
 
-.menu {
-  background: #006ACB;
+.logo {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #FFF;
 }
 
 .nav-link:hover {
+  background-color: #004B9C;
   color: #FFF;
+}
+
+.menu {
+  background: #006ACB;
 }
