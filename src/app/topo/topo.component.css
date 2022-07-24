@@ -42,4 +42,9 @@ div.col-md-2 {
 
 .list-group {
   position: absolute;
+  z-index: 999;
+}
+
+.list-group-item a {
+  color: #006ACB;
 }

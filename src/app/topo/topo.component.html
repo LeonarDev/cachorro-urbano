@@ -18,8 +18,13 @@
           />
           <!-- <button><i class="fas fa-search"></i></button> -->
           <ul class="list-group">
-            <li class="list-group-item" *ngFor="let oferta of ofertas2">
-              {{ oferta.titulo | descricaoReduzida: 15 }}
+            <li class="list-group-item" *ngFor="let oferta of ofertas | async">
+              <a
+                [routerLink]="['/oferta', oferta.id]"
+                (click)="limpaPesquisa()"
+              >
+                {{ oferta.titulo | descricaoReduzida: 15 }}
+              </a>
             </li>
           </ul>
         </div>
