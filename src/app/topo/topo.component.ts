@@ -14,7 +14,6 @@ import { Oferta } from '../shared/oferta.model';
 export class TopoComponent implements OnInit {
 
   public ofertas!: Observable<Oferta[]>;
-  public ofertas2!: Oferta[];
   private subjectPesquisa: Subject<string> = new Subject<string>();
 
   constructor(private ofertasService: OfertasService) { }
@@ -32,12 +31,14 @@ export class TopoComponent implements OnInit {
         return observable;
       })
     );
-    this.ofertas.subscribe((ofertas: Oferta[]) => {
-      this.ofertas2 = ofertas;
-    })
   }
 
   public pesquisar(conteudoDaPesquisa: string): void {
-    this.subjectPesquisa.next(conteudoDaPesquisa)
+    this.subjectPesquisa.next(conteudoDaPesquisa);
+  }
+
+  public limpaPesquisa(): void {
+    this.subjectPesquisa.next('');
+    //limpar inptu
   }
 }
