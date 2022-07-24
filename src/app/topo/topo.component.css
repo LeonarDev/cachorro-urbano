@@ -2,12 +2,9 @@ a {
   color: #C1E4FF;
 }
 
-.logo {
-  width: 60%;
-}
-
-.navbar {
-  background-color: #FFF;
+div.col-md-6,
+div.col-md-2 {
+  margin: auto;
 }
 
 .active {
@@ -16,18 +13,33 @@ a {
 }
 
 .banner {
-  margin-top: 280px;
+  margin-bottom: 200px;
+  position: relative;
+  top: 165px;
 }
 
 .banner img {
   width: 100%;
-  height: 230px
+  height: 230px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #FFF;
+}
+
+.nav-link:hover {
+  background-color: #004B9C;
+  color: #FFF;
 }
 
 .menu {
   background: #006ACB;
 }
 
-.nav-link:hover {
-  color: #FFF;
+.list-group {
+  position: absolute;
 }

@@ -6,7 +6,11 @@ Este repositório tem propósito apenas educacional e foi gerado com [Angular CL
 
 ## Executando a aplicação
 
-Após baixar o reposiório e instalar as dependências, execute `ng serve` no terminal e abra o navegador em `http://localhost:4200/`. 
+- Baixe o repositório;
+- Abra o terminal e instale as dependências com o comando`npm i`;
+- Neste mesmo terminal, rode o banco de dados fake com o comando `json-server -w banco-de-dados.json`;
+- Abra outro terminal e execute o frontend com o comando `ng s`;
+- Abra o navegador em `http://localhost:4200/`.
 
 
 ## Esboços
