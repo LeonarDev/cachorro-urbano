@@ -39,3 +39,7 @@ div.col-md-2 {
 .menu {
   background: #006ACB;
 }
+
+.list-group {
+  position: absolute;
+}

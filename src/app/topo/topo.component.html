@@ -17,6 +17,11 @@
             (keyup)="pesquisar(conteudoDaPesquisa.value)"
           />
           <!-- <button><i class="fas fa-search"></i></button> -->
+          <ul class="list-group">
+            <li class="list-group-item" *ngFor="let oferta of ofertas2">
+              {{ oferta.titulo }}
+            </li>
+          </ul>
         </div>
 
         <div class="col-md-2">
