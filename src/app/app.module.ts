@@ -4,6 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
+import { ROUTES } from './app.routes';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { TopoComponent } from './topo/topo.component';
@@ -12,10 +14,11 @@ import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { DiversaoComponent } from './diversao/diversao.component';
 import { ContatoComponent } from './contato/contato.component';
 import { SobreComponent } from './sobre/sobre.component';
-import { ROUTES } from './app.routes';
 import { OfertaComponent } from './oferta/oferta.component';
 import { ComoUsarComponent } from './oferta/como-usar/como-usar.component';
 import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
+
+import { DescricaoReduzida } from './util/descricao-reduzida.pipe';
 
 @NgModule({
   declarations: [
@@ -30,6 +33,7 @@ import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
     OfertaComponent,
     ComoUsarComponent,
     OndeFicaComponent,
+    DescricaoReduzida
   ],
   imports: [
     BrowserModule,

@@ -19,7 +19,7 @@
           <!-- <button><i class="fas fa-search"></i></button> -->
           <ul class="list-group">
             <li class="list-group-item" *ngFor="let oferta of ofertas2">
-              {{ oferta.titulo }}
+              {{ oferta.titulo | descricaoReduzida }}
             </li>
           </ul>
         </div>
