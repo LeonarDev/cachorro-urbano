@@ -16,7 +16,7 @@ export class OrdemCompraService {
     let body = JSON.stringify(pedido);
     let headers = new HttpHeaders({ 'Content-Type': 'application/json; charset=utf-8' });
 
-    return this.http.post(url, body, { headers: headers })
+    return this.http.post(url, body, { headers })
       .pipe(
         map((resposta: any) => resposta.id)
       )
