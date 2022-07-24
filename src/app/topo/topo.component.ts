@@ -39,6 +39,5 @@ export class TopoComponent implements OnInit {
 
   public limpaPesquisa(): void {
     this.subjectPesquisa.next('');
-    //limpar inptu
   }
 }
